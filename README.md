@@ -1,8 +1,8 @@
 # Polyhedral Geometry of Time-to-First-Spike Neural Networks
 
-This repository contains the code used to reproduce the experiments in *Polyhedral Geometry of Time-to-First-Spike Neural Networks*. 
+This repository contains the code that can be used to reproduce the experiments in Polyhedral Geometry of Time-to-First-Spike Neural Networks. 
 
-The repository provides common implementations of the TTFS-based SNN and ReLU models, the initialization schemes considered in the paper, trajectory-based region counting, training routines, and exact two-dimensional region enumeration. Experiment-specific notebooks use these shared implementations to reproduce the numerical results and figures reported in the paper.
+The repository provides implementations of the TTFS-based SNN and ReLU models, the initialization schemes considered in the paper, trajectory-based region counting, training routines, and exact two-dimensional region enumeration. Experiment-specific notebooks use these shared implementations to reproduce the numerical results and figures reported in the paper.
 
 ## Requirements
 
@@ -94,8 +94,7 @@ Experimental outputs are written to `./results`.
 
 ## Full and fast configurations
 
-The full paper-scale experiments can be computationally expensive. The
-experiment notebooks therefore also provide a fast mode that reduces the
+The experiment notebooks also provide a fast mode that reduces the
 number of seeds, architectures, trajectories, and/or trajectory samples.
 
 Fast mode is intended only as a quick end-to-end check of the installation and
